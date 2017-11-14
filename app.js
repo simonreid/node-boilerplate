@@ -4,7 +4,7 @@ const db = require('./db/db');
 
 app.use(require('./routes/routes'));
 
-db.connect();
+// db.connect();
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`App listening on port ${port}!`));

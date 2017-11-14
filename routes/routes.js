@@ -14,4 +14,8 @@ router.get('/', function(req, res) {
   res.send('Why hello there');
 });
 
+router.get('*', function(req, res) {
+  res.status(404).send("Help! I don't know what to do!!!");
+});
+
 module.exports = router;

@@ -1,0 +1,19 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "es6 async await nodejs server",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Ledbetter",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "node-fetch": "^1.7.3"
+  }
+}
